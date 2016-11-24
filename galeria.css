@@ -1,0 +1,53 @@
+
+body{
+height: 100%;
+width:  100%;
+background-image: url("http://www.royaltyfreelandscapesimages.com/imagenes/flores/flores_g/Fondos-Flores-HD-24.jpg");		
+
+}
+html{
+height: 100%;
+width:  100%;
+
+}
+.imgprincipal{
+	height: 40%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+ #mosaico{
+ 	display:flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ 	
+ }
+ .imagenes{
+ 	height: 60%;
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+ }
+ #galeria{
+ 	height: 100%;
+    width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    align-self: center;
+
+ }
+ #mosaico > div > img {
+ 	height: 50%;
+ 	width:  50%;
+ }
+
+ #mosaico > div {
+ 	width: 30%;
+ 	height: 40%;
+
+ }
